@@ -47,7 +47,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/google_sans"
-                    android:text="@string/only"
+                    android:text="@string/Daily"
                     android:textColor="@color/colorRed"
                     android:textSize="21sp" />
 
@@ -55,7 +55,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/google_sans"
-                    android:text="@string/news"
+                    android:text="@string/Pulse"
                     android:textColor="@color/colorPrimaryDark"
                     android:textSize="21sp" />
             </LinearLayout>
@@ -95,24 +95,22 @@
             app:layout_constraintTop_toBottomOf="@+id/tabLayout" />
 
         <LinearLayout
-            android:visibility="gone"
             android:id="@+id/network_status_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:color/holo_red_light"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            android:background="@android:color/holo_red_light"
-            >
+            app:layout_constraintRight_toRightOf="parent">
+
             <TextView
                 android:id="@+id/textView_network_status"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:padding="6dp"
                 android:text="No internet connection"
                 android:textAlignment="center"
-                android:textColor="@android:color/white"
-                android:padding="6dp"
-                />
+                android:textColor="@android:color/white" />
         </LinearLayout>
 
 

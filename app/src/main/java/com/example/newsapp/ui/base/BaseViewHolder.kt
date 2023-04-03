@@ -39,7 +39,7 @@ abstract class BaseViewHolder<viewDataBinding : ViewDataBinding>(private val bin
 
         titleArticle.text = article.title
         publishedAt.text =
-            "${article.publishedAt!!.substring(0, article.publishedAt!!.indexOf('T'))}"
+            article.publishedAt!!.substring(0, article.publishedAt.indexOf('T'))
         source.text = article.source.name
 
 
