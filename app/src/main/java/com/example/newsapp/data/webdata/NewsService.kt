@@ -1,8 +1,10 @@
 package com.example.newsapp.data.webdata
 
+import com.example.newsapp.BuildConfig
 import com.example.newsapp.model.NewsItem
 import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Query
 
 interface NewsService{
 
@@ -22,5 +24,4 @@ interface NewsService{
     suspend fun getNewsOnEntertainment(): Response<NewsItem>
     @GET("/v2/top-headlines?country=in&category=sports&apiKey=bdb1688209e3487cbdcfe76fad0c7dff")
     suspend fun getNewsOnSports(): Response<NewsItem>
-
 }
