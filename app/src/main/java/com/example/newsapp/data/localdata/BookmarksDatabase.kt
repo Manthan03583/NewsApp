@@ -22,7 +22,7 @@ abstract class BookmarksDatabase :RoomDatabase(){
                         context.applicationContext,
                         BookmarksDatabase::class.java,
                         "Bookmarks"
-                    ).build()
+                    ).fallbackToDestructiveMigration().build()
 
                 }
                     return instance
