@@ -3,6 +3,8 @@
 
 NewsApp is an Android application that provides users with the latest news and headlines from around the world. With NewsApp, users can browse through news articles from different categories such as sports, politics, entertainment, business, technology, and more.
 
+Download Link -> https://drive.google.com/file/d/1XjQDdQqzqiUeyBotqgLdewKG3YH1Ubi6/view?usp=sharing
+
 ## Features
 - Browse news articles from different categories.
 - View news articles in detail.
@@ -45,6 +47,7 @@ You can also view news articles in detail by clicking on the article headline. F
     <td><img src="https://user-images.githubusercontent.com/60837727/229924171-2b6fd6c0-bfe1-4104-a280-c43c16e95df9.jpeg" width="300" alt="Image 7"></td>
   </tr>
 </table>
+
 ## Tech Stack
 
 **Libraries:** Picasso, Retrofit, OkHttp, Coroutines, ViewModel, LiveData, Room Database, 
